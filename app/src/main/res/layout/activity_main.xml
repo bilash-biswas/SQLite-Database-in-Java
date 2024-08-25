@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/studentName"
+        android:hint="Student Name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:importantForAutofill="no"
+        android:layout_width="match_parent"
+        android:background="@drawable/ed_background"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/subjectName"
+        android:hint="Subject Name"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:padding="10dp"
+        android:background="@drawable/ed_background"
+        android:importantForAutofill="no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/salary"
+        android:hint="Salary"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:background="@drawable/ed_background"
+        android:importantForAutofill="no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_marginTop="40dp"
+        android:text="Submit"
+        android:background="@drawable/button_bg"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/viewStudent"
+        android:layout_marginTop="40dp"
+        android:text="All Student"
+        android:background="@drawable/button_bg"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

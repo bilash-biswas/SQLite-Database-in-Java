@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "355224300250",
+    "project_id": "sqlite-database-79153",
+    "storage_bucket": "sqlite-database-79153.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355224300250:android:10986bc364d873beed93e3",
+        "android_client_info": {
+          "package_name": "com.example.sqlitedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLt3o3GycRlJmMeKqP7rVXe2-fzBvPEgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

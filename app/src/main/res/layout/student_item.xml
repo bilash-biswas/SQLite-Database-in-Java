@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="5dp"
+    android:elevation="10dp"
+    android:backgroundTint="#DFC1C1"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nameOfStudent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#317D87"
+            android:text="student name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/subjectOfStudent"
+            android:textSize="15sp"
+            android:paddingVertical="8dp"
+            android:textStyle="bold"
+            android:textColor="#317D87"
+            android:text="subject name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/salaryOfStudent"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#317D87"
+
+            android:text="salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
